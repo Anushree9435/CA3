@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Book Haven</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f7f3e9;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      background-color: #fff;
+      padding: 20px 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-container h1 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      color: #4b4b4b;
+    }
+
+    .contact-container p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+      width: 100%;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    .contact-form button {
+      padding: 10px 15px;
+      background-color: #c0392b;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: #a83227;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      font-size: 1em;
+      color: #777;
+    }
+
+    .contact-info a {
+      color: #c0392b;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    function my(){
+        alert("Your message is sent!")
+    }
+  </script>
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Have a question, suggestion, or just want to say hello? We'd love to hear from you!</p>
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <span><button type="submit" type="button" onclick="my()">Send Message</button></span>
+    </form>
+
+    <div class="contact-info">
+      <p>Or reach us directly at <a href="mailto:contact@bookhaven.com">contact@bookhaven.com</a></p>
+    </div>
+  </div>
+</body>
+</html>

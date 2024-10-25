@@ -1,0 +1,169 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffefcc;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-text p {
+    margin: 20px 0;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff9f43;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ff6f00;
+}
+
+/* Trusted Section */
+.trusted {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.trusted-logos img {
+    margin: 0 20px;
+}
+
+/* About Author */
+.about-author {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #ffefcc;
+}
+
+.author-photo {
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 150px;
+}
+
+.author-text {
+    max-width: 500px;
+}
+
+/* Top Books Section */
+.top-books {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.book-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.book-item h3 {
+    margin: 15px 0;
+}
+
+/* Promo Section */
+.promo {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffe066;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffefcc;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}

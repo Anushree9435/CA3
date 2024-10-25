@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf3e0;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    background-repeat: repeat;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #fffbf2;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    position: relative;
+    
+}
+
+.library-login {
+    background-color: #c7b198;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+   
+}
+
+.library-login h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+   
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 10px;
+    background-color: #f4f1e6;
+    border: 2px solid #c7b198;
+    color: #6b5b45;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+.input-box label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    padding: 0 5px;
+    background-color: #fffbf2;
+    color: #c7b198;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
+
+.input-box input:focus {
+    border-color: #8b6747;
+    background-color: #fff;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #c7b198;
+    border: none;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.login-btn:hover {
+    background-color: #8b6747;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    color: #8b6747;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+
+}
+
+.forgot-password:hover {
+    color: #c7b198;
+}
